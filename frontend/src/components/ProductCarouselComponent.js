@@ -1,42 +1,57 @@
-import {Carousel} from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
+import {LinkContainer} from "react-router-bootstrap";
+
 
 const ProductCarouselComponent = () => {
+    const cursorP = {
+        cursor: "pointer"
+    }
   return (
     <Carousel>
       <Carousel.Item>
         <img
+          crossOrigin="anonymous"
           className="d-block w-100"
+          style={{ height: "300px", objectFit: "cover" }}
           src="/images/carousel/carousel-1.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <LinkContainer style={cursorP} to="/product-details">
+          <h3>BestSeller in Laptops Category</h3>
+            </LinkContainer>
+          <p>Dell Inspiron 15 3000 Laptop, 15.6 inch HD </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="/images/carousel/carousel-2.png"
+          style={{ height: "300px", objectFit: "cover" }}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <LinkContainer style={cursorP} to="/product-details">
+                <h3>BestSeller in Books Category</h3>
+            </LinkContainer>
+          <p>World of Eric Carle, Hear Bear Roar 30-Button Animal Sound Book</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="/images/carousel/carousel-3.png"
+          style={{ height: "300px", objectFit: "cover" }}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+            <LinkContainer style={cursorP} to="/product-details">
+                <h3>BestSeller in Cameras Category</h3>
+            </LinkContainer>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        4K Camcorder Video Camera 60FPS 48MP Vlogging Camera for YouTube Wifi 16x Digital Camera
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -44,4 +59,4 @@ const ProductCarouselComponent = () => {
   );
 };
 
-export default ProductCarouselComponent
+export default ProductCarouselComponent;
