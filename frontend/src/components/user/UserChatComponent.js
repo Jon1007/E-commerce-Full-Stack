@@ -1,4 +1,4 @@
-import
+import "."
 
 const UserChatComponent = () => {
   return (
