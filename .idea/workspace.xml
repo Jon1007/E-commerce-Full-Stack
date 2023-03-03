@@ -4,31 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="yarn to npm">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/CartItemComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/admin/AdminChatRoomComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/admin/AdminLinksComponent.js" afterDir="false" />
+    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="User Interface finished">
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/CategoryModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/ProductModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/ReviewModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/apiRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HeaderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminAnalyticsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminAnalyticsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminChatsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminChatsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminCreateProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminCreateProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditUserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditUserPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrdersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrdersPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrdersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrdersPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserProfilePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,17 +70,18 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\zmakh\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zmakh\Desktop\Best Shop\backend" />
       <recent name="C:\Users\zmakh\Desktop\Best Shop\frontend\src\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.RatingFilterComponent.js">
+  <component name="RunManager" selected="npm.test">
     <configuration name="RatingFilterComponent.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/RatingFilterComponent.js" working-dir="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions">
       <method v="2" />
     </configuration>
@@ -107,8 +95,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Node.js.RatingFilterComponent.js" />
         <item itemvalue="npm.start" />
       </list>
@@ -129,7 +128,11 @@
       <workItem from="1676930804041" duration="8316000" />
       <workItem from="1676993944790" duration="701000" />
       <workItem from="1677060263840" duration="23390000" />
-      <workItem from="1677273410704" duration="11539000" />
+      <workItem from="1677273410704" duration="11839000" />
+      <workItem from="1677477806385" duration="6920000" />
+      <workItem from="1677650569585" duration="4909000" />
+      <workItem from="1677674451880" duration="2957000" />
+      <workItem from="1677788209010" duration="2713000" />
     </task>
     <task id="LOCAL-00001" summary="yarn to npm">
       <created>1676639529695</created>
@@ -152,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676666446725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="User Interface finished">
+      <created>1677305742283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677305742284</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yarn to npm" />
-    <option name="LAST_COMMIT_MESSAGE" value="yarn to npm" />
+    <MESSAGE value="User Interface finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Interface finished" />
   </component>
 </project>
