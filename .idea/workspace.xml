@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="User Interface finished">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AddedToCartMessageComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/components/ProductListPageComponent.js" afterDir="false" />
+    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="issues removed successfully">
+      <change afterPath="$PROJECT_DIR$/backend/config/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/verifyAuthToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/OrderModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/UserModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seeder/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seeder/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seeder/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seeder/reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seeder/seeder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seeder/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/generateAuthToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/hashPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/imageValidate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/CategoryModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/CategoryModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/ProductModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/ProductModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/apiRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +64,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LnhPHiDFHyTKq9XOpSf8qgljY5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,21 +87,23 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.14.2&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zmakh/Desktop/Best Shop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\zmakh\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\John\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\John\WebstormProjects\E-commerce-Full-Stack\frontend\public\images" />
       <recent name="C:\Users\zmakh\Desktop\Best Shop\backend" />
       <recent name="C:\Users\zmakh\Desktop\Best Shop\frontend\src\pages" />
     </key>
@@ -135,6 +163,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="" />
@@ -159,7 +190,15 @@
       <workItem from="1677998874202" duration="725000" />
       <workItem from="1678079060659" duration="1481000" />
       <workItem from="1678104264386" duration="9400000" />
-      <workItem from="1678139681659" duration="1997000" />
+      <workItem from="1678139681659" duration="3596000" />
+      <workItem from="1678230313114" duration="327000" />
+      <workItem from="1678548387078" duration="136000" />
+      <workItem from="1678548586863" duration="1841000" />
+      <workItem from="1678600843989" duration="16466000" />
+      <workItem from="1678871264265" duration="11314000" />
+      <workItem from="1678983378292" duration="11741000" />
+      <workItem from="1679090195955" duration="30889000" />
+      <workItem from="1679444583992" duration="8648000" />
     </task>
     <task id="LOCAL-00001" summary="yarn to npm">
       <created>1676639529695</created>
@@ -189,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677305742284</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="issues removed successfully">
+      <created>1678228222558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678228222558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +255,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yarn to npm" />
     <MESSAGE value="User Interface finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Interface finished" />
+    <MESSAGE value="issues remuved successfully" />
+    <MESSAGE value="issues removed successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="issues removed successfully" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

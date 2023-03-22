@@ -1,8 +1,5 @@
 const mongoose = require("mongoose");
 const Review = require("./ReviewModel");
-const imageSchema = mongoose.Schema({
-  path: { type: String, required: true },
-});
 const productSchema = mongoose.Schema(
   {
     name: {
@@ -11,7 +8,8 @@ const productSchema = mongoose.Schema(
       unique: true,
     },
     description: {
-      type: String,
+        type: String,
+        required: true,
     },
     category: {
       type: String,
@@ -25,39 +23,33 @@ const productSchema = mongoose.Schema(
       type: Number,
       required: true,
     },
-    rating: {
-      type: Number,
-    },
-    reviewsNumber: {
-      type: Number,
-    },
-    sales: {
-      type: Number,
-      default: 0,
-    },
-    attr: [
-      { key: { type: String }, value: { type: String } }[
-        ({ key: "color", value: "red" }, { key: "size", value: "1 TB" })
-      ],
-    ],
-    images: [imageSchema],
-    reviews: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: Review,
+      rating: {
+          type: Number,
       },
-    ],
+      reviewsNumber: {
+          type: Number,
+      },
+      sales: {
+          type: Number,
+          default: 0,
+      },
+      attrs: [
+          {key: {type: String}, value: {type: String}},
+          // [{ key: "color", value: "red" }, { key: "size", value: "1 TB" }]
+      ],
+      images: [],
+      reviews: [
+          {
+              type: mongoose.Schema.Types.ObjectId,
+              ref: Review,
+          },
+      ],
   },
-  {
-    timeStamp: true,
-  }
+    {
+        timestamps: true,
+    }
 );
-
+productSchema.index();
 const Product = mongoose.model("Product", productSchema);
 
-productSchema.index(
-  { name: "text", description: "text" },
-  { name: "TextIndex" }
-);
-productSchema.index({ "attr.key": 1, "attr.value": 1 });
 module.exports = Product;
