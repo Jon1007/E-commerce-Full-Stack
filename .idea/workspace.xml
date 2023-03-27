@@ -169,7 +169,7 @@
       <workItem from="1679444583992" duration="34062000" />
       <workItem from="1679797820964" duration="7769000" />
       <workItem from="1679875145731" duration="4786000" />
-      <workItem from="1679921578122" duration="976000" />
+      <workItem from="1679921578122" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="yarn to npm">
       <created>1676639529695</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679922538759</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed minor issues">
+      <created>1679922730840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679922730840</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
