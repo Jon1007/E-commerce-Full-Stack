@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="Fixed minor issues" />
+    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="Fixed minor issues">
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +171,7 @@
       <workItem from="1679444583992" duration="34062000" />
       <workItem from="1679797820964" duration="7769000" />
       <workItem from="1679875145731" duration="4786000" />
-      <workItem from="1679921578122" duration="1287000" />
+      <workItem from="1679921578122" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="yarn to npm">
       <created>1676639529695</created>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679922730840</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed minor issues">
+      <created>1679923077609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679923077609</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
