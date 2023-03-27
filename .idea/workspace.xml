@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="API section finished">
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/OrderDetailsPageComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/OrdersPageComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/ProductsPageComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/UsersPageComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/categoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/orderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middleware/verifyAuthToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/verifyAuthToken.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/OrderModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/OrderModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/apiRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/orderRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/seeder/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/seeder/orders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/seeder/seeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/seeder/seeder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/seeder/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/seeder/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/generateAuthToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/generateAuthToken.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/hashPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/hashPassword.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/imageValidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/imageValidate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CartItemComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CartItemComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrdersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrdersPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/components/ProductListPageComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" afterDir="false" />
-    </list>
+    <list default="true" id="0e359384-e439-42e4-a554-32f76621ed22" name="Changes" comment="Fixed minor issues" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +169,7 @@
       <workItem from="1679444583992" duration="34062000" />
       <workItem from="1679797820964" duration="7769000" />
       <workItem from="1679875145731" duration="4786000" />
-      <workItem from="1679921578122" duration="629000" />
+      <workItem from="1679921578122" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="yarn to npm">
       <created>1676639529695</created>
@@ -252,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679521948874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed minor issues">
+      <created>1679922538759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679922538759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +243,8 @@
     <MESSAGE value="issues remuved successfully" />
     <MESSAGE value="issues removed successfully" />
     <MESSAGE value="API section finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="API section finished" />
+    <MESSAGE value="Fixed minor issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed minor issues" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
