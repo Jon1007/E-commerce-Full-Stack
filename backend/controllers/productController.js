@@ -1,8 +1,6 @@
 const Product = require("../models/ProductModel");
 const recordsPerPage = require("../config/pagination");
 const imageValidate = require("../utils/imageValidate");
-const {v4: uuidv4} = require("uuid");
-const path = require("path");
 
 const getProducts = async (req, res, next) => {
     try {
@@ -236,7 +234,6 @@ const adminUpload = async (req, res, next) => {
         let product = await Product.findById(req.query.productId).orFail();
 
         let imagesTable = [];
-
         if (Array.isArray(req.files.images)) {
             imagesTable = req.files.images;
         } else {
@@ -267,12 +264,11 @@ const adminDeleteProductImage = async (req, res, next) => {
         const finalPath = path.resolve("../frontend/public") + imagePath;
 
         const fs = require("fs");
-        fs.link(finalPath, (err) => {
+        fs.unlink(finalPath, (err) => {
             if (err) {
                 res.status(500).send(err);
             }
         });
-
         await Product.findOneAndUpdate(
             {_id: req.params.productId},
             {$pull: {images: {path: imagePath}}}
@@ -294,3 +290,4 @@ module.exports = {
     adminUpload,
     adminDeleteProductImage,
 };
+

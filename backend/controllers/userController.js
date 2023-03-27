@@ -246,8 +246,8 @@ const updateUser = async (req, res, next) => {
         await user.save();
 
         res.send("user updated");
-    } catch (e) {
-        next(e);
+    } catch (err) {
+        next(err);
     }
 };
 
@@ -256,8 +256,8 @@ const deleteUser = async (req, res, next) => {
         const user = await User.findById(req.params.id).orFail();
         await user.remove();
         res.send("user removed");
-    } catch (e) {
-        next(e);
+    } catch (err) {
+        next(err);
     }
 };
 

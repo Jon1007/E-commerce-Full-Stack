@@ -1,24 +1,14 @@
-const express = require("express");
-const router = express.Router();
+const express = require('express')
+const router = express.Router()
+const {getCategories, newCategory, deleteCategory, saveAttr} = require("../controllers/categoryController")
+const {verifyIsLoggedIn, verifyIsAdmin} = require("../middleware/verifyAuthToken")
 
-const {
-    getCategories,
-    newCategory,
-    deleteCategory,
-    saveAttr,
-} = require("../controllers/categoryController");
+router.get("/", getCategories)
 
-const {
-    verifyIsLoggedIn,
-    verifyIsAdmin,
-} = require("../middleware/verifyAuthToken");
+router.use(verifyIsLoggedIn)
+router.use(verifyIsAdmin)
+router.post("/", newCategory)
+router.delete("/:category", deleteCategory)
+router.post("/attr", saveAttr)
 
-router.get("/", getCategories);
-
-router.use(verifyIsLoggedIn);
-router.use(verifyIsAdmin);
-router.post("/", newCategory);
-router.delete("/:category", deleteCategory);
-router.post("/attr", saveAttr);
-
-module.exports = router;
+module.exports = router
